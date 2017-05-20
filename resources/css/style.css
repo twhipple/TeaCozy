@@ -9,14 +9,37 @@ body {
 }
 
 /* Header */
+.header {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 1200px;
+  z-index: 10;
+}
+
+.header img{
+  height: 50px;
+  width: auto;
+  padding-left: 10px;
+}
 
 
+/* Main */
 
-
+.main {
+  position: relative;
+  z-index: 5;
+}
 
 
 
 /* Monthly */
+
 img {
   height: 200px;
   width: 300px;
@@ -33,18 +56,16 @@ img {
   display: flex:
   justify-content:center;
   padding: 25px;
+  line-height: 10px
 }
-
-
-
-
-
-
 
 
 /* Locations */
 
-
+.places {
+  position: relative;
+  z-index: 5;
+}
 
 
 /* Contact */
