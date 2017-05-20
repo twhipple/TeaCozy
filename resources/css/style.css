@@ -70,24 +70,24 @@ img {
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
   background-repeat: no-repeat;
-  width: auto;
-  display: flex;
+  background-position: center;
+  display: block;
   position: relative;
   z-index: 5;
 }
 
 .cafes {
-  display: flex;
-  justify-content: center;
+  display: inline-flex;
   align-items: center;
-  max-width: 1200px;
 }
 
-.squares {
-  display: flex;
+.square {
+  display: block;
   justify-content: center;
-  height: 300px;
+  align-items: center;
   width: 300px;
+  height: 275px;
+  margin: 15px 20px;
   background-color: black;
   opacity: 1
 }
