@@ -50,19 +50,7 @@ a {
   align-items: center;
   z-index: 5;
 }
-/*
-.main {
-  background-image: url(../images/img-mission-background.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 700px;
-  width: 1200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 5;
-}*/
+
 
 .organic {
   display: block;
@@ -76,8 +64,10 @@ a {
 
 /* Monthly */
 
-.main {
+.monthly {
+  position: relative;
   z-index: 5;
+  padding-top: 50px;
 }
 
 img {
@@ -111,6 +101,7 @@ img {
   position: relative;
   justify-content: center;
   z-index: 5;
+  padding-top: 50px;
 }
 
 .cafes {
