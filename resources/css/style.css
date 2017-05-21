@@ -85,7 +85,7 @@ img {
 .pics {
   display: flex:
   justify-content: center;
-  padding: 25px;
+  padding: 0px 25px;
   line-height: 10px
 }
 
